@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ValidatorApplication",
+            "request": "launch",
+            "mainClass": "com.gantner.demo.bank.ibanvalidator.ValidatorApplication",
+            "projectName": "iban-validator"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ValidatorApplication<iban-validator>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.gantner.demo.iban.ibanvalidator.ValidatorApplication",
+            "projectName": "iban-validator",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
